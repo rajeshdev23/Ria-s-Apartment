@@ -1,0 +1,14 @@
+.faq__block .accordion-button:not(.collapsed){
+    padding: 22px 18px 8px 18px;
+}
+.faq__block .accordion-item .accordion-body {
+    font-size: var(--text-sm);
+    padding: 0px 18px 30px 18px;
+}
+.faq__block .accordion-header .accordion-button{
+    font-size: var(--text-base);
+}
+.faq__block .accordion-button::after {
+    width: 24px;
+    height: 24px;
+}
