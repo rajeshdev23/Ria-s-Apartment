@@ -33,7 +33,7 @@ $language = pll_current_language();
                 <?php
 				if(get_field('brand_logo', 'option')):
 				?>
-                <p>helo=========</p>
+                
                 <a href="<?php echo home_url(); ?>" class="logo"><img
                         src="<?php echo get_field('brand_logo', 'option')['url']; ?>"
                         alt="<?php echo get_field('brand_logo', 'option')['title']; ?>"></a>
